@@ -39,7 +39,7 @@ def turn(board)
       move(board, input)
       puts display_board(board)
   else
-    puts "invalid Entry!"
+    puts "Invalid Entry!"
     turn(board)
   end  
 end
