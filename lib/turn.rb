@@ -36,4 +36,5 @@ def turn(board)
   gets.strip
   input = gets.strip
   input_to_index(input)
+  
 end
